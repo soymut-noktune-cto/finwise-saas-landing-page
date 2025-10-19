@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
+    email: 'info@soymut.com',
     telephone: '+1 (123) 456-7890',
     socials: {
         // github: 'https://github.com',
