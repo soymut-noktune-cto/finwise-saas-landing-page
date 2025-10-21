@@ -4,66 +4,66 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "The Framework of Inner Engineering",
+        description: "Soymut unites your story, your perception on daily events, your dreams, your emotions, and your reflections into a single consciousness framework. It helps you perceive the hidden connections between your inner and outer worlds — guiding you gently toward self-awareness.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Consciousness Journal",
+                description: "Record dreams, thoughts, and emotional moments in one space — a living archive of your evolving awareness.",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Symbol & Pattern Insight",
+                description: "AI identifies recurring symbols, themes, and emotional tones, revealing the subtle architecture of your mind.",
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Reflection Engine",
+                description: "Receive personalized prompts and reflections designed to help you explore meaning, balance, and transformation.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "The Journey of Self-Discovery",
+        description: "Soymut helps you move from passive observation to conscious transformation. Through guided reflections and insight visualization, you begin to see how your consciousness grows over time.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
+                title: "Emotional Tracking",
+                description: "Follow the rhythms of your emotions and their connection to your dreams and daily experiences.",
                 icon: <FiDollarSign size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                title: "Consciousness Map",
+                description: "Visualize your evolution as a dynamic map of symbols, emotions, and recurring patterns.",
                 icon: <FiBriefcase size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                title: "Inner Alignment",
+                description: "Translate awareness into action by integrating insights into your daily life with calm intention.",
                 icon: <FiPieChart size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
     },
     {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        title: "Trust, Privacy & Awareness",
+        description: "Your reflections are sacred. Soymut protects your privacy with care and transparency — ensuring your inner world remains truly yours.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
+                title: "Local Encryption",
+                description: "Your journal entries are stored securely and encrypted — accessible only to you.",
                 icon: <FiLock size={26} />
             },
             {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                title: "AI Transparency",
+                description: "Understand how Soymut’s AI interprets and learns from your data — no black boxes, only clarity.",
                 icon: <FiUser size={26} />
             },
             {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                title: "Ethical AI Foundation",
+                description: "Built on a framework of human-centered design, psychology, and spiritual respect.",
                 icon: <FiShield size={26} />
             }
         ],
