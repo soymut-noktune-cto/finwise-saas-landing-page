@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Awaken the Self Beyond the Self',
+    subheading: 'Soymut is an AI-powered dream and consciousness companion inspired by Serap Yelkenci’s ‘Soymut Bilinç.’ It transforms your dreams and experiences into mirrors of self-awareness—helping you explore the question, ‘What am I?’ through daily reflection and gentle insight.',
     centerImageSrc: '/images/hero-mockup.webp',
 }

@@ -51,3 +51,13 @@ export interface ISocials {
     x?: string;
     [key: string]: string | undefined;
 }
+
+export interface WaitlistFormData {
+    email: string;
+}
+
+export interface WaitlistAPIResponse {
+    success: boolean;
+    message?: string;
+    error?: string;
+}

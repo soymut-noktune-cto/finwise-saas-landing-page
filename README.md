@@ -18,6 +18,7 @@ Please check out the documentation below to get started.
 - Built-in **font optimization** with [next/font](https://nextjs.org/docs/app/api-reference/components/font)
 - Automatic **image optimization** via [next/image](https://nextjs.org/docs/app/building-your-application/optimizing/images)
 - Access to **31+ icon packs** via [React Icons](https://react-icons.github.io/react-icons/)
+- **Waitlist feature** with email collection via [Resend](https://resend.com)
 - Near-perfect **Lighthouse score**
 - Modular, responsive, and **scalable components**
 - **Free lifetime updates**
@@ -26,9 +27,10 @@ Please check out the documentation below to get started.
 
 ## Sections
 
-- Hero
+- Hero (with waitlist signup)
 - Partners or Clients Logos
 - Features
+- Waitlist (dedicated section)
 - Pricing
 - Testimonials
 - FAQ
@@ -51,8 +53,9 @@ Before starting, make sure you have the following installed:
 ### Steps
 
 1. **Install dependencies**: Run `npm install`
-2. **Run the development server**: `npm run dev`
-3. **View your project**: Open [localhost:3000](http://localhost:3000)
+2. **Configure environment variables** (optional, for waitlist feature): See [WAITLIST_SETUP.md](./WAITLIST_SETUP.md)
+3. **Run the development server**: `npm run dev`
+4. **View your project**: Open [localhost:3000](http://localhost:3000)
 
 ---
 
@@ -61,8 +64,9 @@ Before starting, make sure you have the following installed:
 1. **Edit colors**: Update `globals.css` for primary, secondary, background, and accent colors.
 2. **Update site details**: Customize `siteDetails.ts` in `/src/data` to reflect your brand and site info.
 3. **Modify content**: Files in `/src/data` handle data for navigation, features, pricing, testimonials, and more.
-4. **Replace favicon**: Add your icon to `/src/app/favicon.ico`.
-5. **Add images**: Update `public/images` for Open Graph metadata (e.g., `og-image.jpg`, `twitter-image.jpg`).
+4. **Configure waitlist**: Edit `waitlist.ts` in `/src/data` to customize messaging. See [WAITLIST_SETUP.md](./WAITLIST_SETUP.md) for setup.
+5. **Replace favicon**: Add your icon to `/src/app/favicon.ico`.
+6. **Add images**: Update `public/images` for Open Graph metadata (e.g., `og-image.jpg`, `twitter-image.jpg`).
 
 ---
 
