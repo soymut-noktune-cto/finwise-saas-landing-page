@@ -12,11 +12,11 @@ const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: siteDetails.metadata.title,
-  description: siteDetails.metadata.description,
+  title: siteDetails.metadata.en.title,
+  description: siteDetails.metadata.en.description,
   openGraph: {
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
+    title: siteDetails.metadata.en.title,
+    description: siteDetails.metadata.en.description,
     url: siteDetails.siteUrl,
     type: 'website',
     images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
+    title: siteDetails.metadata.en.title,
+    description: siteDetails.metadata.en.description,
     images: ['/images/twitter-image.jpg'],
   },
 };
