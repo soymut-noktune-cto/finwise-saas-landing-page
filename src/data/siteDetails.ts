@@ -1,4 +1,5 @@
 export const siteDetails = {
+  legalName: 'Soymut LLC',
   siteName: 'SOYMUT',
   siteUrl: 'https://soymut.com/',
   language: 'en-us',

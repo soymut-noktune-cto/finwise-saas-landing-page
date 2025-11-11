@@ -7,16 +7,16 @@ export const stats: IStats[] = [
     {
         title: "20M+",
         icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
+        description: "Dreams processed securely by Soymut, providing valuable insights and guidance for our users."
     },
     {
         title: "5.0",
         icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
+        description: "Star rating consistently maintained on our web platform as we prepare native mobile launches."
     },
     {
         title: "200+ ",
         icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
+        description: "Dream experts and professionals who endorse our platform after in-depth reviews and feedback."
     }
 ];
